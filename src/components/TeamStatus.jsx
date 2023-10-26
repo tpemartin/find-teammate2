@@ -3,10 +3,10 @@ import Stack from '@mui/material/Stack';
 export default function TeamStatus({currentMembers, vacancies}) {
   return (
       <Stack direction='row' spacing={1} className="contact-info">
-        <span>Currently</span>
-        <span>{currentMembers}</span>
-        <span>Look for</span>
-        <span>{vacancies} more</span>
+        <span>目前</span>
+        <span>{currentMembers}人</span>
+        <span>缺</span>
+        <span>{vacancies} 人</span>
       </Stack>
    
   );
